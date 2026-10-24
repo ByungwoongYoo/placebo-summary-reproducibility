@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this companion and the original data sources when using these materials."
+title: "Summary-statistic meaning in placebo-controlled trials: reproducibility companion"
+type: software
+authors:
+  - family-names: Yoo
+    given-names: Byungwoong
+    affiliation: Independent Researcher
+    orcid: "https://orcid.org/0009-0002-1797-3100"
+version: "1.0.0"
+date-released: "2026-10-25"
+license: "MIT"

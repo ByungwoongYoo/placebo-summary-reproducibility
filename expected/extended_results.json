@@ -1,0 +1,560 @@
+{
+  "pharmacological_by_category": [
+    {
+      "cat": "CR",
+      "records": 51,
+      "trials": 38
+    },
+    {
+      "cat": "OB",
+      "records": 120,
+      "trials": 96
+    },
+    {
+      "cat": "OBB",
+      "records": 64,
+      "trials": 54
+    },
+    {
+      "cat": "PR",
+      "records": 70,
+      "trials": 68
+    }
+  ],
+  "subjective_sensitivities": {
+    "all": {
+      "n_records": 121,
+      "n_trials": 106,
+      "n_families": 10,
+      "year_min": 2001,
+      "year_max": 2023,
+      "beta_per_decade": -0.1724835882822466,
+      "cluster_se": 0.06265727442626347,
+      "ci95_cluster": [
+        -0.29529184615772297,
+        -0.04967533040677022
+      ],
+      "tau2": 0.1595664051262578,
+      "status": "estimated",
+      "ci95_bootstrap": [
+        -0.283154179866101,
+        -0.04786505880657916
+      ],
+      "bootstrap_B": 1000
+    },
+    "primary_outcomes": {
+      "n_records": 59,
+      "n_trials": 58,
+      "n_families": 10,
+      "year_min": 2002,
+      "year_max": 2022,
+      "beta_per_decade": -0.21793360204574652,
+      "cluster_se": 0.13827523468824426,
+      "ci95_cluster": [
+        -0.4889530620347053,
+        0.053085857943212245
+      ],
+      "tau2": 0.3371178317762815,
+      "status": "estimated"
+    },
+    "single_active_arm": {
+      "n_records": 89,
+      "n_trials": 79,
+      "n_families": 9,
+      "year_min": 2001,
+      "year_max": 2023,
+      "beta_per_decade": -0.1666640287995545,
+      "cluster_se": 0.07042754064891311,
+      "ci95_cluster": [
+        -0.3047020084714242,
+        -0.028626049127684794
+      ],
+      "tau2": 0.22706205106190533,
+      "status": "estimated"
+    },
+    "unique_outcome": {
+      "n_records": 106,
+      "n_trials": 92,
+      "n_families": 10,
+      "year_min": 2001,
+      "year_max": 2023,
+      "beta_per_decade": -0.1817646500846814,
+      "cluster_se": 0.06438804851409537,
+      "ci95_cluster": [
+        -0.3079652251723083,
+        -0.055564074997054486
+      ],
+      "tau2": 0.18200420422051647,
+      "status": "estimated"
+    },
+    "2006_2020": {
+      "n_records": 89,
+      "n_trials": 81,
+      "n_families": 10,
+      "year_min": 2006,
+      "year_max": 2020,
+      "beta_per_decade": -0.20877686379852628,
+      "cluster_se": 0.13018194287546464,
+      "ci95_cluster": [
+        -0.46393347183443695,
+        0.04637974423738439
+      ],
+      "tau2": 0.20227779260263207,
+      "status": "estimated"
+    },
+    "phase3": {
+      "n_records": 60,
+      "n_trials": 55,
+      "n_families": 9,
+      "year_min": 2001,
+      "year_max": 2022,
+      "beta_per_decade": -0.22693862463748407,
+      "cluster_se": 0.10639331682251026,
+      "ci95_cluster": [
+        -0.43546952560960417,
+        -0.018407723665363973
+      ],
+      "tau2": 0.22554943047933737,
+      "status": "estimated"
+    },
+    "abs_g_at_most_3": {
+      "n_records": 119,
+      "n_trials": 104,
+      "n_families": 10,
+      "year_min": 2001,
+      "year_max": 2023,
+      "beta_per_decade": -0.11306680047320429,
+      "cluster_se": 0.0480001281744307,
+      "ci95_cluster": [
+        -0.20714705169508846,
+        -0.018986549251320123
+      ],
+      "tau2": 0.04605572090606869,
+      "status": "estimated"
+    },
+    "strict_fields_single_active": {
+      "n_records": 76,
+      "n_trials": 67,
+      "n_families": 9,
+      "year_min": 2001,
+      "year_max": 2023,
+      "beta_per_decade": -0.19664894232871322,
+      "cluster_se": 0.09083257378397581,
+      "ci95_cluster": [
+        -0.3746807869453058,
+        -0.01861709771212061
+      ],
+      "tau2": 0.27764580469518785,
+      "status": "estimated",
+      "ci95_bootstrap": [
+        -0.39775416170158956,
+        -0.01579564851114822
+      ],
+      "bootstrap_B": 1000
+    },
+    "strict_fields_single_active_abs_g_at_most_3": {
+      "n_records": 74,
+      "n_trials": 65,
+      "n_families": 9,
+      "year_min": 2001,
+      "year_max": 2023,
+      "beta_per_decade": -0.08359611940393526,
+      "cluster_se": 0.05922410215411002,
+      "ci95_cluster": [
+        -0.1996753596259909,
+        0.03248312081812038
+      ],
+      "tau2": 0.05744127890216767,
+      "status": "estimated"
+    },
+    "single_experimental_group": {
+      "n_records": 89,
+      "n_trials": 79,
+      "n_families": 9,
+      "year_min": 2001,
+      "year_max": 2023,
+      "beta_per_decade": -0.1666640287995545,
+      "cluster_se": 0.07042754064891311,
+      "ci95_cluster": [
+        -0.3047020084714242,
+        -0.028626049127684794
+      ],
+      "tau2": 0.22706205106190533,
+      "status": "estimated"
+    },
+    "strict_fields_single_experimental_group": {
+      "n_records": 76,
+      "n_trials": 67,
+      "n_families": 9,
+      "year_min": 2001,
+      "year_max": 2023,
+      "beta_per_decade": -0.19664894232871322,
+      "cluster_se": 0.09083257378397581,
+      "ci95_cluster": [
+        -0.3746807869453058,
+        -0.01861709771212061
+      ],
+      "tau2": 0.27764580469518785,
+      "status": "estimated",
+      "ci95_bootstrap": [
+        -0.39775416170158956,
+        -0.01579564851114822
+      ],
+      "bootstrap_B": 1000
+    },
+    "strict_fields_single_experimental_group_abs_g_at_most_3": {
+      "n_records": 74,
+      "n_trials": 65,
+      "n_families": 9,
+      "year_min": 2001,
+      "year_max": 2023,
+      "beta_per_decade": -0.08359611940393526,
+      "cluster_se": 0.05922410215411002,
+      "ci95_cluster": [
+        -0.1996753596259909,
+        0.03248312081812038
+      ],
+      "tau2": 0.05744127890216767,
+      "status": "estimated"
+    }
+  },
+  "leave_one_family_out": {
+    "ADHDRS": {
+      "n_records": 118,
+      "n_trials": 103,
+      "n_families": 9,
+      "year_min": 2001,
+      "year_max": 2023,
+      "beta_per_decade": -0.16922606297061782,
+      "cluster_se": 0.0632710830467017,
+      "ci95_cluster": [
+        -0.2932373857421532,
+        -0.045214740199082476
+      ],
+      "tau2": 0.16108044738907273,
+      "status": "estimated"
+    },
+    "HAMA": {
+      "n_records": 109,
+      "n_trials": 103,
+      "n_families": 9,
+      "year_min": 2001,
+      "year_max": 2023,
+      "beta_per_decade": -0.17001420192985794,
+      "cluster_se": 0.06634582590277974,
+      "ci95_cluster": [
+        -0.30005202069930625,
+        -0.03997638316040966
+      ],
+      "tau2": 0.1851399139694722,
+      "status": "estimated"
+    },
+    "HAMD": {
+      "n_records": 111,
+      "n_trials": 99,
+      "n_families": 9,
+      "year_min": 2001,
+      "year_max": 2023,
+      "beta_per_decade": -0.18070121613799894,
+      "cluster_se": 0.06556438479198629,
+      "ci95_cluster": [
+        -0.3092074103302921,
+        -0.05219502194570583
+      ],
+      "tau2": 0.1640784508236389,
+      "status": "estimated"
+    },
+    "HOTFLASH": {
+      "n_records": 116,
+      "n_trials": 101,
+      "n_families": 9,
+      "year_min": 2001,
+      "year_max": 2023,
+      "beta_per_decade": -0.14095882984248956,
+      "cluster_se": 0.05866307517260701,
+      "ci95_cluster": [
+        -0.2559384571807993,
+        -0.02597920250417983
+      ],
+      "tau2": 0.15979323983747343,
+      "status": "estimated"
+    },
+    "IPSS": {
+      "n_records": 120,
+      "n_trials": 105,
+      "n_families": 9,
+      "year_min": 2001,
+      "year_max": 2023,
+      "beta_per_decade": -0.1724835882822466,
+      "cluster_se": 0.062398486198905076,
+      "ci95_cluster": [
+        -0.2947846212321006,
+        -0.05018255533239266
+      ],
+      "tau2": 0.15956640512625775,
+      "status": "estimated"
+    },
+    "MADRS": {
+      "n_records": 105,
+      "n_trials": 95,
+      "n_families": 9,
+      "year_min": 2001,
+      "year_max": 2023,
+      "beta_per_decade": -0.17250606477599692,
+      "cluster_se": 0.06992682036494346,
+      "ci95_cluster": [
+        -0.30956263269128614,
+        -0.035449496860707724
+      ],
+      "tau2": 0.1776385433650429,
+      "status": "estimated"
+    },
+    "PAIN": {
+      "n_records": 63,
+      "n_trials": 50,
+      "n_families": 9,
+      "year_min": 2004,
+      "year_max": 2023,
+      "beta_per_decade": -0.2967662942687694,
+      "cluster_se": 0.12339993639514456,
+      "ci95_cluster": [
+        -0.5386301696032527,
+        -0.054902418934286046
+      ],
+      "tau2": 0.1963591286613259,
+      "status": "estimated"
+    },
+    "PANSS": {
+      "n_records": 119,
+      "n_trials": 104,
+      "n_families": 9,
+      "year_min": 2001,
+      "year_max": 2023,
+      "beta_per_decade": -0.1713777852176899,
+      "cluster_se": 0.062426497470555425,
+      "ci95_cluster": [
+        -0.2937337202599785,
+        -0.04902185017540127
+      ],
+      "tau2": 0.1586243191602835,
+      "status": "estimated"
+    },
+    "WOMACP": {
+      "n_records": 115,
+      "n_trials": 102,
+      "n_families": 9,
+      "year_min": 2001,
+      "year_max": 2023,
+      "beta_per_decade": -0.14080487572105216,
+      "cluster_se": 0.04922887405242724,
+      "ci95_cluster": [
+        -0.23729346886380953,
+        -0.04431628257829477
+      ],
+      "tau2": 0.08315536054404057,
+      "status": "estimated"
+    },
+    "YMRS": {
+      "n_records": 113,
+      "n_trials": 105,
+      "n_families": 9,
+      "year_min": 2001,
+      "year_max": 2023,
+      "beta_per_decade": -0.1759895935329781,
+      "cluster_se": 0.06687443342512696,
+      "ci95_cluster": [
+        -0.30706348304622694,
+        -0.044915704019729275
+      ],
+      "tau2": 0.1708765796670885,
+      "status": "estimated"
+    }
+  },
+  "within_intervention": {
+    "eligible_strata": 2,
+    "eligible_trials": 4,
+    "eligible_records": 4,
+    "trend": {
+      "n_records": 4,
+      "n_trials": 4,
+      "status": "too_few_for_trend"
+    }
+  },
+  "pharmacological_trends": {
+    "subjective": {
+      "n_records": 121,
+      "n_trials": 106,
+      "n_families": 10,
+      "year_min": 2001,
+      "year_max": 2023,
+      "beta_per_decade": -0.1724835882822466,
+      "cluster_se": 0.06265727442626347,
+      "ci95_cluster": [
+        -0.29529184615772297,
+        -0.04967533040677022
+      ],
+      "tau2": 0.1595664051262578,
+      "status": "estimated",
+      "ci95_bootstrap": [
+        -0.283154179866101,
+        -0.04786505880657916
+      ],
+      "bootstrap_B": 1000
+    },
+    "laboratory": {
+      "n_records": 120,
+      "n_trials": 96,
+      "n_families": 4,
+      "year_min": 2001,
+      "year_max": 2023,
+      "beta_per_decade": 0.23692765225197687,
+      "cluster_se": 0.1462306637935352,
+      "ci95_cluster": [
+        -0.0496844487833521,
+        0.5235397532873058
+      ],
+      "tau2": 0.17782004445009017,
+      "status": "estimated",
+      "ci95_bootstrap": [
+        -0.09081041975211987,
+        0.5333775843470044
+      ],
+      "bootstrap_B": 1000
+    },
+    "blood_pressure_weight": {
+      "n_records": 64,
+      "n_trials": 54,
+      "n_families": 3,
+      "year_min": 2006,
+      "year_max": 2023,
+      "beta_per_decade": 0.4048570034929222,
+      "cluster_se": 0.17344750688208824,
+      "ci95_cluster": [
+        0.06489989000402924,
+        0.7448141169818152
+      ],
+      "tau2": 0.14352453932640993,
+      "status": "estimated",
+      "ci95_bootstrap": [
+        0.06874651330557285,
+        0.7454233880743374
+      ],
+      "bootstrap_B": 1000
+    }
+  },
+  "strict_field_placebo_trends": {
+    "subjective": {
+      "n_records": 232,
+      "n_trials": 203,
+      "n_families": 10,
+      "year_min": 2000,
+      "year_max": 2023,
+      "beta_per_decade": 0.13041840817740263,
+      "cluster_se": 0.1200432593726946,
+      "ci95_cluster": [
+        -0.10486638019307878,
+        0.3657031965478841
+      ],
+      "tau2": 0.42600045421566574,
+      "status": "estimated",
+      "ci95_bootstrap": [
+        -0.09238357424133374,
+        0.40927372444511556
+      ],
+      "bootstrap_B": 1000
+    },
+    "laboratory": {
+      "n_records": 243,
+      "n_trials": 188,
+      "n_families": 4,
+      "year_min": 2001,
+      "year_max": 2023,
+      "beta_per_decade": -0.031986883656459617,
+      "cluster_se": 0.07326662211591478,
+      "ci95_cluster": [
+        -0.17558946300365258,
+        0.11161569569073336
+      ],
+      "tau2": 0.11315115301406685,
+      "status": "estimated",
+      "ci95_bootstrap": [
+        -0.203340303026983,
+        0.111567904668709
+      ],
+      "bootstrap_B": 1000
+    },
+    "blood_pressure_weight": {
+      "n_records": 161,
+      "n_trials": 131,
+      "n_families": 3,
+      "year_min": 2005,
+      "year_max": 2023,
+      "beta_per_decade": 0.13669947672599847,
+      "cluster_se": 0.06811957447013609,
+      "ci95_cluster": [
+        0.0031851107645317345,
+        0.2702138426874652
+      ],
+      "tau2": 0.05259816317466249,
+      "status": "estimated",
+      "ci95_bootstrap": [
+        0.001765883086009541,
+        0.262786199847206
+      ],
+      "bootstrap_B": 1000
+    }
+  },
+  "strict_field_retention": {
+    "records": 636,
+    "trials": 465
+  },
+  "same_paired_cohort_arm_changes": {
+    "placebo": {
+      "n_records": 121,
+      "n_trials": 106,
+      "n_families": 10,
+      "year_min": 2001,
+      "year_max": 2023,
+      "beta_per_decade": 0.2833734503999311,
+      "cluster_se": 0.15448438500244446,
+      "ci95_cluster": [
+        -0.019415944204860036,
+        0.5861628450047223
+      ],
+      "tau2": 0.5872724803494781,
+      "status": "estimated",
+      "ci95_bootstrap": [
+        -0.015799017367082908,
+        0.6044047635688622
+      ],
+      "bootstrap_B": 1000
+    },
+    "active": {
+      "n_records": 121,
+      "n_trials": 106,
+      "n_families": 10,
+      "year_min": 2001,
+      "year_max": 2023,
+      "beta_per_decade": 0.13519581944905598,
+      "cluster_se": 0.14952792001017154,
+      "ci95_cluster": [
+        -0.15787890377088024,
+        0.4282705426689922
+      ],
+      "tau2": 0.5468118044495877,
+      "status": "estimated",
+      "ci95_bootstrap": [
+        -0.14527918663584335,
+        0.440119868479067
+      ],
+      "bootstrap_B": 1000
+    }
+  },
+  "boundary_checks": {
+    "pvalue_interval_cases": 8,
+    "nonchronological_and_subgroup_class_cases": 2,
+    "raw_summary_type_and_n_invariants": "PASS",
+    "one_record_per_trial_family": "PASS",
+    "all_paired_g_recalculated": "PASS"
+  }
+}

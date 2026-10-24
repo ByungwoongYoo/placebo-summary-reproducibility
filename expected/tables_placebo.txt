@@ -1,0 +1,46 @@
+Table 1. Summary types and record retention
+
+Reference-frame summary type | Dispersion label | Records
+--- | --- | ---
+Least-squares mean | 95% Confidence Interval | 273
+Least-squares mean | Standard Deviation | 25
+Least-squares mean | Standard Error | 1161
+Mean | 95% Confidence Interval | 98
+Mean | Standard Deviation | 1214
+Mean | Standard Error | 251
+
+Denominator: 3,022 outcome-family records from 2,084 trials. The reported mean/SD and mapping rules retained 731 records from 538 trials; strict field conditions retained 636 records from 465 trials. Restrictions overlap; exclusions are listed jointly in Supplementary Table S1. A trial may contribute more than one family.
+
+Table 2. Within-placebo temporal slopes per decade
+
+Analysis | Records | Trials | Slope | 95% interval | Interval method
+--- | --- | --- | --- | --- | ---
+Subjective / Mixed-summary reference | 1077 | 894 | 0.173 | 0.083 to 0.266 | 500-replicate trial bootstrap
+Subjective / Reported mean/SD | 261 | 228 | 0.193 | -0.037 to 0.418 | 500-replicate trial bootstrap
+Subjective / Strict fields | 232 | 203 | 0.130 | -0.092 to 0.409 | 1000-replicate trial bootstrap
+Biochemical/spirometric / Mixed-summary reference | 1313 | 972 | 0.028 | -0.023 to 0.083 | 500-replicate trial bootstrap
+Biochemical/spirometric / Reported mean/SD | 299 | 235 | -0.015 | -0.175 to 0.109 | 500-replicate trial bootstrap
+Biochemical/spirometric / Strict fields | 243 | 188 | -0.032 | -0.203 to 0.112 | 1000-replicate trial bootstrap
+Blood pressure/weight / Mixed-summary reference | 632 | 511 | -0.002 | -0.077 to 0.081 | 500-replicate trial bootstrap
+Blood pressure/weight / Reported mean/SD | 171 | 139 | 0.130 | -0.004 to 0.241 | 500-replicate trial bootstrap
+Blood pressure/weight / Strict fields | 161 | 131 | 0.137 | 0.002 to 0.263 | 1000-replicate trial bootstrap
+
+Outcome-family-adjusted meta-regressions. Slopes are standardized change units per decade. Laboratory includes biochemical and spirometric outcomes. Cohort composition changes across restrictions, so differences between rows are not same-sample correction effects.
+
+Table 3. Subjective pharmacological contrast slopes per decade
+
+Analysis | Records | Trials | Hedges g slope | 95% interval | Interval method
+--- | --- | --- | --- | --- | ---
+All eligible pharmacological contrasts | 121 | 106 | -0.172 | -0.283 to -0.048 | 1000-replicate trial bootstrap
+Primary outcomes | 59 | 58 | -0.218 | -0.489 to 0.053 | Trial-cluster normal interval
+One eligible outcome per family | 106 | 92 | -0.182 | -0.308 to -0.056 | Trial-cluster normal interval
+Trials starting in 2006–2020 | 89 | 81 | -0.209 | -0.464 to 0.046 | Trial-cluster normal interval
+Phase 3 trials | 60 | 55 | -0.227 | -0.435 to -0.018 | Trial-cluster normal interval
+Excluding contrasts with absolute g >3 | 119 | 104 | -0.113 | -0.207 to -0.019 | Trial-cluster normal interval
+One identified experimental group | 89 | 79 | -0.167 | -0.305 to -0.029 | Trial-cluster normal interval
+Strict fields and one experimental group | 76 | 67 | -0.197 | -0.398 to -0.016 | 1000-replicate trial bootstrap
+Strict fields, one experimental group and absolute g ≤3 | 74 | 65 | -0.084 | -0.200 to 0.032 | Trial-cluster normal interval
+Joint restriction plus confirmed adjusted-mean exclusion | 73 | 64 | -0.088 | -0.204 to 0.028 | Trial-cluster normal interval
+
+Positive Hedges g favors the experimental group. Negative slopes indicate a decrease in the signed drug–placebo contrast in later-starting trials, not necessarily a decrease in its absolute magnitude. One experimental group requires one usable summary and only one identified EXPERIMENTAL group. Strict fields require one class, an outcome-level participant denominator, and no flagged model-based description. These post hoc comparisons are not confirmatory tests. The last row additionally excludes only NCT01145755/MADRS, identified as an adjusted mean in its final report. Other unresolved sampled records are retained; Supplementary Table S7 provides the corresponding bootstrap interval and other source-informed analyses.
+

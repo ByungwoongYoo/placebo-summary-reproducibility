@@ -1,0 +1,8 @@
+__pycache__/
+results/
+figures/
+inputs/data/v8/
+inputs/who_preparation_report.json
+external-raw/
+*.zip
+*.tar

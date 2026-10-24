@@ -1,0 +1,1180 @@
+{
+  "snapshot_sha256": "6c2d72d295407261d769399f43ca02c3288f2b8317af944dc6395287c7bd826f",
+  "snapshot_bytes": 83652887,
+  "record_table_sha256": "56b0aeb4e6b7d93892f7c1778d8c8e7720216bd37ddf65b0fcf35fa9fd5646ea",
+  "analysis_status": "post_hoc_after_inspection_of_original_results",
+  "legacy_all": {
+    "records": 3570,
+    "trials": 2411
+  },
+  "legacy_pure": {
+    "records": 3022,
+    "trials": 2084
+  },
+  "raw_pure": {
+    "records": 731,
+    "trials": 538
+  },
+  "param_dispersion_counts": [
+    {
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "95% Confidence Interval",
+      "n": 273
+    },
+    {
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "Standard Deviation",
+      "n": 25
+    },
+    {
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "Standard Error",
+      "n": 1161
+    },
+    {
+      "param_type": "MEAN",
+      "dispersion_type": "95% Confidence Interval",
+      "n": 98
+    },
+    {
+      "param_type": "MEAN",
+      "dispersion_type": "Standard Deviation",
+      "n": 1214
+    },
+    {
+      "param_type": "MEAN",
+      "dispersion_type": "Standard Error",
+      "n": 251
+    }
+  ],
+  "raw_exclusions": {
+    "not_arithmetic_mean_with_reported_SD": 1478,
+    "": 731,
+    "ambiguous_classes;measurement_or_n_ambiguous": 501,
+    "not_arithmetic_mean_with_reported_SD;time_specific_n_unverified": 75,
+    "time_specific_n_unverified": 64,
+    "multiple_placebo_groups;not_arithmetic_mean_with_reported_SD": 60,
+    "multiple_placebo_groups": 39,
+    "multiple_placebo_groups;ambiguous_classes;measurement_or_n_ambiguous": 28,
+    "duplicate_outcome_title;not_arithmetic_mean_with_reported_SD": 21,
+    "duplicate_outcome_title": 11,
+    "multiple_placebo_groups;time_specific_n_unverified": 8,
+    "multiple_placebo_groups;not_arithmetic_mean_with_reported_SD;time_specific_n_unverified": 3,
+    "duplicate_outcome_title;ambiguous_classes;measurement_or_n_ambiguous": 3
+  },
+  "trends": {
+    "subjective__legacy_mixed_reporting": {
+      "n_records": 1077,
+      "n_trials": 894,
+      "n_families": 10,
+      "year_min": 2000,
+      "year_max": 2023,
+      "beta_per_decade": 0.1725790145042248,
+      "cluster_se": 0.04641263308229703,
+      "ci95_cluster": [
+        0.08161025366292263,
+        0.263547775345527
+      ],
+      "tau2": 0.3392804893761957,
+      "status": "estimated",
+      "ci95_bootstrap": [
+        0.08337103963776388,
+        0.26608609808846256
+      ],
+      "bootstrap_B": 500
+    },
+    "subjective__raw_mean_sd": {
+      "n_records": 261,
+      "n_trials": 228,
+      "n_families": 10,
+      "year_min": 2000,
+      "year_max": 2023,
+      "beta_per_decade": 0.19261065292650217,
+      "cluster_se": 0.12097144484507764,
+      "ci95_cluster": [
+        -0.044493378969850006,
+        0.42971468482285435
+      ],
+      "tau2": 0.5518150033272333,
+      "status": "estimated",
+      "ci95_bootstrap": [
+        -0.036746918514201185,
+        0.4183803969044861
+      ],
+      "bootstrap_B": 500
+    },
+    "subjective__raw_primary_outcomes": {
+      "n_records": 145,
+      "n_trials": 143,
+      "n_families": 10,
+      "year_min": 2000,
+      "year_max": 2023,
+      "beta_per_decade": 0.27281589495306413,
+      "cluster_se": 0.2764159950122094,
+      "ci95_cluster": [
+        -0.2689594552708663,
+        0.8145912451769945
+      ],
+      "tau2": 0.7468638931532164,
+      "status": "estimated"
+    },
+    "subjective__raw_unique_outcome": {
+      "n_records": 228,
+      "n_trials": 202,
+      "n_families": 10,
+      "year_min": 2000,
+      "year_max": 2023,
+      "beta_per_decade": 0.19054602886186625,
+      "cluster_se": 0.1465903749083492,
+      "ci95_cluster": [
+        -0.09677110595849817,
+        0.4778631636822307
+      ],
+      "tau2": 0.6257622271515842,
+      "status": "estimated"
+    },
+    "subjective__raw_2006_2020": {
+      "n_records": 207,
+      "n_trials": 183,
+      "n_families": 10,
+      "year_min": 2006,
+      "year_max": 2020,
+      "beta_per_decade": 0.26457193241424415,
+      "cluster_se": 0.23225596243713956,
+      "ci95_cluster": [
+        -0.19064975396254935,
+        0.7197936187910376
+      ],
+      "tau2": 0.6001056338436916,
+      "status": "estimated"
+    },
+    "laboratory__legacy_mixed_reporting": {
+      "n_records": 1313,
+      "n_trials": 972,
+      "n_families": 4,
+      "year_min": 2001,
+      "year_max": 2023,
+      "beta_per_decade": 0.02845798407552253,
+      "cluster_se": 0.02628648590041281,
+      "ci95_cluster": [
+        -0.023063528289286574,
+        0.07997949644033164
+      ],
+      "tau2": 0.07372542010188377,
+      "status": "estimated",
+      "ci95_bootstrap": [
+        -0.023380647028938776,
+        0.08267110853776212
+      ],
+      "bootstrap_B": 500
+    },
+    "laboratory__raw_mean_sd": {
+      "n_records": 299,
+      "n_trials": 235,
+      "n_families": 4,
+      "year_min": 2001,
+      "year_max": 2023,
+      "beta_per_decade": -0.014554799199705636,
+      "cluster_se": 0.06767862415328048,
+      "ci95_cluster": [
+        -0.14720490254013538,
+        0.1180953041407241
+      ],
+      "tau2": 0.11518840011553473,
+      "status": "estimated",
+      "ci95_bootstrap": [
+        -0.17510126848642174,
+        0.10927785773209266
+      ],
+      "bootstrap_B": 500
+    },
+    "laboratory__raw_primary_outcomes": {
+      "n_records": 94,
+      "n_trials": 91,
+      "n_families": 4,
+      "year_min": 2003,
+      "year_max": 2023,
+      "beta_per_decade": 0.3226785377717205,
+      "cluster_se": 0.14392144336156465,
+      "ci95_cluster": [
+        0.040592508783053816,
+        0.6047645667603871
+      ],
+      "tau2": 0.17032734677432276,
+      "status": "estimated"
+    },
+    "laboratory__raw_unique_outcome": {
+      "n_records": 246,
+      "n_trials": 198,
+      "n_families": 4,
+      "year_min": 2001,
+      "year_max": 2023,
+      "beta_per_decade": 0.026009376237721347,
+      "cluster_se": 0.07793264588603015,
+      "ci95_cluster": [
+        -0.12673860969889775,
+        0.17875736217434043
+      ],
+      "tau2": 0.12032529806430764,
+      "status": "estimated"
+    },
+    "laboratory__raw_2006_2020": {
+      "n_records": 247,
+      "n_trials": 192,
+      "n_families": 4,
+      "year_min": 2006,
+      "year_max": 2020,
+      "beta_per_decade": 0.0992420043745372,
+      "cluster_se": 0.09231531577386,
+      "ci95_cluster": [
+        -0.08169601454222838,
+        0.28018002329130276
+      ],
+      "tau2": 0.09658257913603331,
+      "status": "estimated"
+    },
+    "blood_pressure_weight__legacy_mixed_reporting": {
+      "n_records": 632,
+      "n_trials": 511,
+      "n_families": 3,
+      "year_min": 2004,
+      "year_max": 2023,
+      "beta_per_decade": -0.002043882718101145,
+      "cluster_se": 0.0380195141907715,
+      "ci95_cluster": [
+        -0.07656213053201329,
+        0.072474365095811
+      ],
+      "tau2": 0.06916593546471352,
+      "status": "estimated",
+      "ci95_bootstrap": [
+        -0.07696779119271174,
+        0.08147771198715754
+      ],
+      "bootstrap_B": 500
+    },
+    "blood_pressure_weight__raw_mean_sd": {
+      "n_records": 171,
+      "n_trials": 139,
+      "n_families": 3,
+      "year_min": 2005,
+      "year_max": 2023,
+      "beta_per_decade": 0.1295005506974916,
+      "cluster_se": 0.06550168522080899,
+      "ci95_cluster": [
+        0.0011172476647060003,
+        0.2578838537302772
+      ],
+      "tau2": 0.051923100325317974,
+      "status": "estimated",
+      "ci95_bootstrap": [
+        -0.0038661720727505957,
+        0.24063462944092637
+      ],
+      "bootstrap_B": 500
+    },
+    "blood_pressure_weight__raw_primary_outcomes": {
+      "n_records": 44,
+      "n_trials": 43,
+      "n_families": 3,
+      "year_min": 2005,
+      "year_max": 2023,
+      "beta_per_decade": 0.0266329473645269,
+      "cluster_se": 0.19913721334074852,
+      "ci95_cluster": [
+        -0.36367599078334023,
+        0.416941885512394
+      ],
+      "tau2": 0.24492636329171744,
+      "status": "estimated"
+    },
+    "blood_pressure_weight__raw_unique_outcome": {
+      "n_records": 152,
+      "n_trials": 126,
+      "n_families": 3,
+      "year_min": 2005,
+      "year_max": 2023,
+      "beta_per_decade": 0.12864018801668228,
+      "cluster_se": 0.0693949125053345,
+      "ci95_cluster": [
+        -0.00737384049377332,
+        0.2646542165271379
+      ],
+      "tau2": 0.04630712622854653,
+      "status": "estimated"
+    },
+    "blood_pressure_weight__raw_2006_2020": {
+      "n_records": 148,
+      "n_trials": 125,
+      "n_families": 3,
+      "year_min": 2006,
+      "year_max": 2020,
+      "beta_per_decade": 0.028027437867821997,
+      "cluster_se": 0.08734414880470541,
+      "ci95_cluster": [
+        -0.1431670937894006,
+        0.1992219695250446
+      ],
+      "tau2": 0.05447479772894775,
+      "status": "estimated"
+    }
+  },
+  "paired_trends": {
+    "subjective__experimental_only": {
+      "n_records": 133,
+      "n_trials": 118,
+      "n_families": 10,
+      "year_min": 2001,
+      "year_max": 2023,
+      "beta_per_decade": -0.1584857978693882,
+      "cluster_se": 0.06573480170623046,
+      "ci95_cluster": [
+        -0.2873260092135999,
+        -0.029645586525176515
+      ],
+      "tau2": 0.15010670727089165,
+      "status": "estimated",
+      "ci95_bootstrap": [
+        -0.2744562719150001,
+        -0.022274174534799875
+      ],
+      "bootstrap_B": 500
+    },
+    "subjective__all_nonplacebo": {
+      "n_records": 261,
+      "n_trials": 228,
+      "n_families": 10,
+      "year_min": 2000,
+      "year_max": 2023,
+      "beta_per_decade": -0.16084932225560353,
+      "cluster_se": 0.060529294491154566,
+      "ci95_cluster": [
+        -0.27948673945826646,
+        -0.042211905052940576
+      ],
+      "tau2": 0.20743923645909174,
+      "status": "estimated",
+      "ci95_bootstrap": [
+        -0.2824888750210279,
+        -0.04317080059913121
+      ],
+      "bootstrap_B": 500
+    },
+    "laboratory__experimental_only": {
+      "n_records": 124,
+      "n_trials": 100,
+      "n_families": 4,
+      "year_min": 2001,
+      "year_max": 2023,
+      "beta_per_decade": 0.24535485785913846,
+      "cluster_se": 0.14380887611739146,
+      "ci95_cluster": [
+        -0.03651053933094878,
+        0.5272202550492258
+      ],
+      "tau2": 0.17943356251528111,
+      "status": "estimated",
+      "ci95_bootstrap": [
+        -0.03375228493112848,
+        0.5286907851108011
+      ],
+      "bootstrap_B": 500
+    },
+    "laboratory__all_nonplacebo": {
+      "n_records": 296,
+      "n_trials": 233,
+      "n_families": 4,
+      "year_min": 2001,
+      "year_max": 2023,
+      "beta_per_decade": -0.0778062278832894,
+      "cluster_se": 0.1735973722709836,
+      "ci95_cluster": [
+        -0.41805707753441723,
+        0.26244462176783845
+      ],
+      "tau2": 0.36726750747526327,
+      "status": "estimated",
+      "ci95_bootstrap": [
+        -0.5135446346532527,
+        0.21104532260855557
+      ],
+      "bootstrap_B": 500
+    },
+    "blood_pressure_weight__experimental_only": {
+      "n_records": 69,
+      "n_trials": 59,
+      "n_families": 3,
+      "year_min": 2006,
+      "year_max": 2023,
+      "beta_per_decade": 0.3353507802664528,
+      "cluster_se": 0.16780828786066918,
+      "ci95_cluster": [
+        0.0064465360595412635,
+        0.6642550244733644
+      ],
+      "tau2": 0.14139104713822676,
+      "status": "estimated",
+      "ci95_bootstrap": [
+        0.03058169880743256,
+        0.6729610318753984
+      ],
+      "bootstrap_B": 500
+    },
+    "blood_pressure_weight__all_nonplacebo": {
+      "n_records": 171,
+      "n_trials": 139,
+      "n_families": 3,
+      "year_min": 2005,
+      "year_max": 2023,
+      "beta_per_decade": 0.3477500811423041,
+      "cluster_se": 0.08269783899169335,
+      "ci95_cluster": [
+        0.18566231671858513,
+        0.5098378455660231
+      ],
+      "tau2": 0.1546973473617068,
+      "status": "estimated",
+      "ci95_bootstrap": [
+        0.19743897938743354,
+        0.5306240288437082
+      ],
+      "bootstrap_B": 500
+    }
+  },
+  "pvalue_audit_counts": {
+    "multiple_or_missing_experimental_arms": 983,
+    "single_exact_contrast_determinate": 203,
+    "no_exact_two_group_analysis": 85,
+    "requires_analysis_adjudication": 15,
+    "single_exact_contrast_missing": 9,
+    "multiple_exact_group_analyses": 6,
+    "analysis_timepoint_not_identified": 3
+  },
+  "family_raw_trends": {
+    "ADHDRS": {
+      "n_records": 13,
+      "n_trials": 13,
+      "n_families": 1,
+      "year_min": 2005,
+      "year_max": 2023,
+      "beta_per_decade": 0.3515430334054638,
+      "cluster_se": 0.37322577959534137,
+      "ci95_cluster": [
+        -0.37997949460140534,
+        1.083065561412333
+      ],
+      "tau2": 0.5858756212732531,
+      "status": "estimated"
+    },
+    "FEV1": {
+      "n_records": 75,
+      "n_trials": 75,
+      "n_families": 1,
+      "year_min": 2003,
+      "year_max": 2023,
+      "beta_per_decade": 0.05281637231228754,
+      "cluster_se": 0.23403570652026387,
+      "ci95_cluster": [
+        -0.40589361246742967,
+        0.5115263570920048
+      ],
+      "tau2": 0.26450364880945243,
+      "status": "estimated"
+    },
+    "FPG": {
+      "n_records": 71,
+      "n_trials": 71,
+      "n_families": 1,
+      "year_min": 2002,
+      "year_max": 2023,
+      "beta_per_decade": -0.19664151641540084,
+      "cluster_se": 0.195669520750485,
+      "ci95_cluster": [
+        -0.5801537770863514,
+        0.18687074425554973
+      ],
+      "tau2": 0.20143971710632452,
+      "status": "estimated"
+    },
+    "HAMA": {
+      "n_records": 20,
+      "n_trials": 20,
+      "n_families": 1,
+      "year_min": 2004,
+      "year_max": 2023,
+      "beta_per_decade": 0.261685156736202,
+      "cluster_se": 0.2587678547190392,
+      "ci95_cluster": [
+        -0.2454998385131148,
+        0.7688701519855188
+      ],
+      "tau2": 1.310038201316379,
+      "status": "estimated"
+    },
+    "HAMD": {
+      "n_records": 27,
+      "n_trials": 27,
+      "n_families": 1,
+      "year_min": 2005,
+      "year_max": 2023,
+      "beta_per_decade": -0.31144978641467186,
+      "cluster_se": 0.4182897137002091,
+      "ci95_cluster": [
+        -1.1312976252670817,
+        0.5083980524377381
+      ],
+      "tau2": 0.5983702956120871,
+      "status": "estimated"
+    },
+    "HBA1C": {
+      "n_records": 99,
+      "n_trials": 99,
+      "n_families": 1,
+      "year_min": 2003,
+      "year_max": 2023,
+      "beta_per_decade": 0.04521167405197855,
+      "cluster_se": 0.12292228388028732,
+      "ci95_cluster": [
+        -0.1957160023533846,
+        0.2861393504573417
+      ],
+      "tau2": 0.08555635566378474,
+      "status": "estimated"
+    },
+    "HOTFLASH": {
+      "n_records": 9,
+      "n_trials": 9,
+      "status": "too_few_for_trend"
+    },
+    "IPSS": {
+      "n_records": 6,
+      "n_trials": 6,
+      "status": "too_few_for_trend"
+    },
+    "LDL": {
+      "n_records": 54,
+      "n_trials": 54,
+      "n_families": 1,
+      "year_min": 2001,
+      "year_max": 2023,
+      "beta_per_decade": 0.002869460707161853,
+      "cluster_se": 0.04852423012511073,
+      "ci95_cluster": [
+        -0.09223803033805518,
+        0.09797695175237887
+      ],
+      "tau2": 0.012277373096122628,
+      "status": "estimated"
+    },
+    "MADRS": {
+      "n_records": 31,
+      "n_trials": 31,
+      "n_families": 1,
+      "year_min": 2004,
+      "year_max": 2023,
+      "beta_per_decade": 0.04888545441937109,
+      "cluster_se": 0.4041469632081401,
+      "ci95_cluster": [
+        -0.7432425934685835,
+        0.8410135023073256
+      ],
+      "tau2": 0.746755454486632,
+      "status": "estimated"
+    },
+    "PAIN": {
+      "n_records": 116,
+      "n_trials": 116,
+      "n_families": 1,
+      "year_min": 2000,
+      "year_max": 2023,
+      "beta_per_decade": 0.11664696437914868,
+      "cluster_se": 0.09709357868937954,
+      "ci95_cluster": [
+        -0.0736564498520352,
+        0.3069503786103326
+      ],
+      "tau2": 0.3890448279376033,
+      "status": "estimated"
+    },
+    "PANSS": {
+      "n_records": 13,
+      "n_trials": 13,
+      "n_families": 1,
+      "year_min": 2006,
+      "year_max": 2013,
+      "beta_per_decade": 3.981956532303904,
+      "cluster_se": 2.847579859843406,
+      "ci95_cluster": [
+        -1.5992999929891716,
+        9.563213057596979
+      ],
+      "tau2": 0.4352044740769771,
+      "status": "estimated"
+    },
+    "SBP": {
+      "n_records": 71,
+      "n_trials": 71,
+      "n_families": 1,
+      "year_min": 2005,
+      "year_max": 2023,
+      "beta_per_decade": 0.1252602442722124,
+      "cluster_se": 0.07973964625459648,
+      "ci95_cluster": [
+        -0.031029462386796686,
+        0.2815499509312215
+      ],
+      "tau2": 0.04248388356932777,
+      "status": "estimated"
+    },
+    "SBPABPM": {
+      "n_records": 5,
+      "n_trials": 5,
+      "status": "too_few_for_trend"
+    },
+    "WEIGHT": {
+      "n_records": 95,
+      "n_trials": 95,
+      "n_families": 1,
+      "year_min": 2005,
+      "year_max": 2023,
+      "beta_per_decade": 0.14281682620166022,
+      "cluster_se": 0.09871434348640107,
+      "ci95_cluster": [
+        -0.05066328703168588,
+        0.3362969394350063
+      ],
+      "tau2": 0.05848784978262359,
+      "status": "estimated"
+    },
+    "WOMACP": {
+      "n_records": 14,
+      "n_trials": 14,
+      "n_families": 1,
+      "year_min": 2004,
+      "year_max": 2020,
+      "beta_per_decade": 2.4880588094051332,
+      "cluster_se": 2.615257199673982,
+      "ci95_cluster": [
+        -2.637845301955871,
+        7.613962920766138
+      ],
+      "tau2": 1.5538098277766161,
+      "status": "estimated"
+    },
+    "YMRS": {
+      "n_records": 12,
+      "n_trials": 12,
+      "n_families": 1,
+      "year_min": 2004,
+      "year_max": 2023,
+      "beta_per_decade": -0.1204107545869535,
+      "cluster_se": 0.1547900919452339,
+      "ci95_cluster": [
+        -0.42379933479961196,
+        0.18297782562570497
+      ],
+      "tau2": 0.09149704795416495,
+      "status": "estimated"
+    }
+  },
+  "raw_by_category": [
+    {
+      "cat": "CR",
+      "records": 116,
+      "trials": 90
+    },
+    {
+      "cat": "OB",
+      "records": 299,
+      "trials": 235
+    },
+    {
+      "cat": "OBB",
+      "records": 171,
+      "trials": 139
+    },
+    {
+      "cat": "PR",
+      "records": 145,
+      "trials": 139
+    }
+  ],
+  "reporting_mix_by_period": [
+    {
+      "period": "2000-2009",
+      "cat": "CR",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "95% Confidence Interval",
+      "records": 9
+    },
+    {
+      "period": "2000-2009",
+      "cat": "CR",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "Standard Deviation",
+      "records": 5
+    },
+    {
+      "period": "2000-2009",
+      "cat": "CR",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "Standard Error",
+      "records": 78
+    },
+    {
+      "period": "2000-2009",
+      "cat": "CR",
+      "param_type": "MEAN",
+      "dispersion_type": "95% Confidence Interval",
+      "records": 2
+    },
+    {
+      "period": "2000-2009",
+      "cat": "CR",
+      "param_type": "MEAN",
+      "dispersion_type": "Standard Deviation",
+      "records": 75
+    },
+    {
+      "period": "2000-2009",
+      "cat": "CR",
+      "param_type": "MEAN",
+      "dispersion_type": "Standard Error",
+      "records": 35
+    },
+    {
+      "period": "2000-2009",
+      "cat": "OB",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "95% Confidence Interval",
+      "records": 46
+    },
+    {
+      "period": "2000-2009",
+      "cat": "OB",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "Standard Deviation",
+      "records": 7
+    },
+    {
+      "period": "2000-2009",
+      "cat": "OB",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "Standard Error",
+      "records": 154
+    },
+    {
+      "period": "2000-2009",
+      "cat": "OB",
+      "param_type": "MEAN",
+      "dispersion_type": "95% Confidence Interval",
+      "records": 12
+    },
+    {
+      "period": "2000-2009",
+      "cat": "OB",
+      "param_type": "MEAN",
+      "dispersion_type": "Standard Deviation",
+      "records": 95
+    },
+    {
+      "period": "2000-2009",
+      "cat": "OB",
+      "param_type": "MEAN",
+      "dispersion_type": "Standard Error",
+      "records": 58
+    },
+    {
+      "period": "2000-2009",
+      "cat": "OBB",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "95% Confidence Interval",
+      "records": 2
+    },
+    {
+      "period": "2000-2009",
+      "cat": "OBB",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "Standard Error",
+      "records": 67
+    },
+    {
+      "period": "2000-2009",
+      "cat": "OBB",
+      "param_type": "MEAN",
+      "dispersion_type": "95% Confidence Interval",
+      "records": 8
+    },
+    {
+      "period": "2000-2009",
+      "cat": "OBB",
+      "param_type": "MEAN",
+      "dispersion_type": "Standard Deviation",
+      "records": 56
+    },
+    {
+      "period": "2000-2009",
+      "cat": "OBB",
+      "param_type": "MEAN",
+      "dispersion_type": "Standard Error",
+      "records": 18
+    },
+    {
+      "period": "2000-2009",
+      "cat": "PR",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "95% Confidence Interval",
+      "records": 6
+    },
+    {
+      "period": "2000-2009",
+      "cat": "PR",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "Standard Deviation",
+      "records": 4
+    },
+    {
+      "period": "2000-2009",
+      "cat": "PR",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "Standard Error",
+      "records": 49
+    },
+    {
+      "period": "2000-2009",
+      "cat": "PR",
+      "param_type": "MEAN",
+      "dispersion_type": "95% Confidence Interval",
+      "records": 3
+    },
+    {
+      "period": "2000-2009",
+      "cat": "PR",
+      "param_type": "MEAN",
+      "dispersion_type": "Standard Deviation",
+      "records": 98
+    },
+    {
+      "period": "2000-2009",
+      "cat": "PR",
+      "param_type": "MEAN",
+      "dispersion_type": "Standard Error",
+      "records": 9
+    },
+    {
+      "period": "2010-2015",
+      "cat": "CR",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "95% Confidence Interval",
+      "records": 6
+    },
+    {
+      "period": "2010-2015",
+      "cat": "CR",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "Standard Deviation",
+      "records": 1
+    },
+    {
+      "period": "2010-2015",
+      "cat": "CR",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "Standard Error",
+      "records": 84
+    },
+    {
+      "period": "2010-2015",
+      "cat": "CR",
+      "param_type": "MEAN",
+      "dispersion_type": "95% Confidence Interval",
+      "records": 4
+    },
+    {
+      "period": "2010-2015",
+      "cat": "CR",
+      "param_type": "MEAN",
+      "dispersion_type": "Standard Deviation",
+      "records": 67
+    },
+    {
+      "period": "2010-2015",
+      "cat": "CR",
+      "param_type": "MEAN",
+      "dispersion_type": "Standard Error",
+      "records": 12
+    },
+    {
+      "period": "2010-2015",
+      "cat": "OB",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "95% Confidence Interval",
+      "records": 72
+    },
+    {
+      "period": "2010-2015",
+      "cat": "OB",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "Standard Deviation",
+      "records": 1
+    },
+    {
+      "period": "2010-2015",
+      "cat": "OB",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "Standard Error",
+      "records": 200
+    },
+    {
+      "period": "2010-2015",
+      "cat": "OB",
+      "param_type": "MEAN",
+      "dispersion_type": "95% Confidence Interval",
+      "records": 10
+    },
+    {
+      "period": "2010-2015",
+      "cat": "OB",
+      "param_type": "MEAN",
+      "dispersion_type": "Standard Deviation",
+      "records": 163
+    },
+    {
+      "period": "2010-2015",
+      "cat": "OB",
+      "param_type": "MEAN",
+      "dispersion_type": "Standard Error",
+      "records": 39
+    },
+    {
+      "period": "2010-2015",
+      "cat": "OBB",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "95% Confidence Interval",
+      "records": 24
+    },
+    {
+      "period": "2010-2015",
+      "cat": "OBB",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "Standard Deviation",
+      "records": 2
+    },
+    {
+      "period": "2010-2015",
+      "cat": "OBB",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "Standard Error",
+      "records": 65
+    },
+    {
+      "period": "2010-2015",
+      "cat": "OBB",
+      "param_type": "MEAN",
+      "dispersion_type": "95% Confidence Interval",
+      "records": 2
+    },
+    {
+      "period": "2010-2015",
+      "cat": "OBB",
+      "param_type": "MEAN",
+      "dispersion_type": "Standard Deviation",
+      "records": 90
+    },
+    {
+      "period": "2010-2015",
+      "cat": "OBB",
+      "param_type": "MEAN",
+      "dispersion_type": "Standard Error",
+      "records": 23
+    },
+    {
+      "period": "2010-2015",
+      "cat": "PR",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "95% Confidence Interval",
+      "records": 15
+    },
+    {
+      "period": "2010-2015",
+      "cat": "PR",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "Standard Error",
+      "records": 53
+    },
+    {
+      "period": "2010-2015",
+      "cat": "PR",
+      "param_type": "MEAN",
+      "dispersion_type": "95% Confidence Interval",
+      "records": 7
+    },
+    {
+      "period": "2010-2015",
+      "cat": "PR",
+      "param_type": "MEAN",
+      "dispersion_type": "Standard Deviation",
+      "records": 90
+    },
+    {
+      "period": "2010-2015",
+      "cat": "PR",
+      "param_type": "MEAN",
+      "dispersion_type": "Standard Error",
+      "records": 9
+    },
+    {
+      "period": "2016-2023",
+      "cat": "CR",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "95% Confidence Interval",
+      "records": 11
+    },
+    {
+      "period": "2016-2023",
+      "cat": "CR",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "Standard Deviation",
+      "records": 1
+    },
+    {
+      "period": "2016-2023",
+      "cat": "CR",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "Standard Error",
+      "records": 75
+    },
+    {
+      "period": "2016-2023",
+      "cat": "CR",
+      "param_type": "MEAN",
+      "dispersion_type": "Standard Deviation",
+      "records": 57
+    },
+    {
+      "period": "2016-2023",
+      "cat": "CR",
+      "param_type": "MEAN",
+      "dispersion_type": "Standard Error",
+      "records": 9
+    },
+    {
+      "period": "2016-2023",
+      "cat": "OB",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "95% Confidence Interval",
+      "records": 56
+    },
+    {
+      "period": "2016-2023",
+      "cat": "OB",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "Standard Deviation",
+      "records": 3
+    },
+    {
+      "period": "2016-2023",
+      "cat": "OB",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "Standard Error",
+      "records": 166
+    },
+    {
+      "period": "2016-2023",
+      "cat": "OB",
+      "param_type": "MEAN",
+      "dispersion_type": "95% Confidence Interval",
+      "records": 18
+    },
+    {
+      "period": "2016-2023",
+      "cat": "OB",
+      "param_type": "MEAN",
+      "dispersion_type": "Standard Deviation",
+      "records": 195
+    },
+    {
+      "period": "2016-2023",
+      "cat": "OB",
+      "param_type": "MEAN",
+      "dispersion_type": "Standard Error",
+      "records": 18
+    },
+    {
+      "period": "2016-2023",
+      "cat": "OBB",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "95% Confidence Interval",
+      "records": 14
+    },
+    {
+      "period": "2016-2023",
+      "cat": "OBB",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "Standard Error",
+      "records": 93
+    },
+    {
+      "period": "2016-2023",
+      "cat": "OBB",
+      "param_type": "MEAN",
+      "dispersion_type": "95% Confidence Interval",
+      "records": 7
+    },
+    {
+      "period": "2016-2023",
+      "cat": "OBB",
+      "param_type": "MEAN",
+      "dispersion_type": "Standard Deviation",
+      "records": 153
+    },
+    {
+      "period": "2016-2023",
+      "cat": "OBB",
+      "param_type": "MEAN",
+      "dispersion_type": "Standard Error",
+      "records": 8
+    },
+    {
+      "period": "2016-2023",
+      "cat": "PR",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "95% Confidence Interval",
+      "records": 12
+    },
+    {
+      "period": "2016-2023",
+      "cat": "PR",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "Standard Deviation",
+      "records": 1
+    },
+    {
+      "period": "2016-2023",
+      "cat": "PR",
+      "param_type": "LEAST_SQUARES_MEAN",
+      "dispersion_type": "Standard Error",
+      "records": 77
+    },
+    {
+      "period": "2016-2023",
+      "cat": "PR",
+      "param_type": "MEAN",
+      "dispersion_type": "95% Confidence Interval",
+      "records": 25
+    },
+    {
+      "period": "2016-2023",
+      "cat": "PR",
+      "param_type": "MEAN",
+      "dispersion_type": "Standard Deviation",
+      "records": 75
+    },
+    {
+      "period": "2016-2023",
+      "cat": "PR",
+      "param_type": "MEAN",
+      "dispersion_type": "Standard Error",
+      "records": 13
+    }
+  ]
+}

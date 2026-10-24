@@ -1,0 +1,100 @@
+Supplementary Table S1. Joint exclusion categories
+
+Reasons | Records
+--- | ---
+not_arithmetic_mean_with_reported_SD | 1478
+Retained | 731
+ambiguous_classes;measurement_or_n_ambiguous | 501
+not_arithmetic_mean_with_reported_SD;time_specific_n_unverified | 75
+time_specific_n_unverified | 64
+multiple_placebo_groups;not_arithmetic_mean_with_reported_SD | 60
+multiple_placebo_groups | 39
+multiple_placebo_groups;ambiguous_classes;measurement_or_n_ambiguous | 28
+duplicate_outcome_title;not_arithmetic_mean_with_reported_SD | 21
+duplicate_outcome_title | 11
+multiple_placebo_groups;time_specific_n_unverified | 8
+multiple_placebo_groups;not_arithmetic_mean_with_reported_SD;time_specific_n_unverified | 3
+duplicate_outcome_title;ambiguous_classes;measurement_or_n_ambiguous | 3
+
+Counts sum to 3,022. A record may meet several exclusion conditions; each combination is counted once.
+
+Supplementary Table S2. Reported P-value eligibility audit
+
+Status | Primary-outcome records
+--- | ---
+multiple_or_missing_experimental_arms | 983
+single_exact_contrast_determinate | 203
+no_exact_two_group_analysis | 85
+requires_analysis_adjudication | 15
+single_exact_contrast_missing | 9
+multiple_exact_group_analyses | 6
+analysis_timepoint_not_identified | 3
+
+This is an extraction-eligibility audit, not a determination of the validity or success of each original trial.
+
+Supplementary Table S3. Leave-one-family-out subjective contrasts
+
+Omitted family | Records | Trials | Slope | 95% interval | Interval method
+--- | --- | --- | --- | --- | ---
+ADHDRS | 118 | 103 | -0.169 | -0.293 to -0.045 | Trial-cluster normal interval
+HAMA | 109 | 103 | -0.170 | -0.300 to -0.040 | Trial-cluster normal interval
+HAMD | 111 | 99 | -0.181 | -0.309 to -0.052 | Trial-cluster normal interval
+HOTFLASH | 116 | 101 | -0.141 | -0.256 to -0.026 | Trial-cluster normal interval
+IPSS | 120 | 105 | -0.172 | -0.295 to -0.050 | Trial-cluster normal interval
+MADRS | 105 | 95 | -0.173 | -0.310 to -0.035 | Trial-cluster normal interval
+PAIN | 63 | 50 | -0.297 | -0.539 to -0.055 | Trial-cluster normal interval
+PANSS | 119 | 104 | -0.171 | -0.294 to -0.049 | Trial-cluster normal interval
+WOMACP | 115 | 102 | -0.141 | -0.237 to -0.044 | Trial-cluster normal interval
+YMRS | 113 | 105 | -0.176 | -0.307 to -0.045 | Trial-cluster normal interval
+
+Same pharmacological set as Table 3 all; families are omitted individually. The joint strict analysis remains the decisive sensitivity when several uncertainties are addressed together.
+
+Supplementary Table S4. Same-cohort standardized arm changes
+
+Arm | Records | Trials | Slope | 95% interval | Interval method
+--- | --- | --- | --- | --- | ---
+placebo | 121 | 106 | 0.283 | -0.016 to 0.604 | 1000-replicate trial bootstrap
+active | 121 | 106 | 0.135 | -0.145 to 0.440 | 1000-replicate trial bootstrap
+
+Each arm uses its own SD and random-effects weights. These slopes do not algebraically decompose the Hedges g contrast slope and do not identify a causal mediation effect.
+
+Supplementary Table S5. Usable-arm sensitivity definitions
+
+Analysis | Records | Trials | Slope | 95% interval | Interval method
+--- | --- | --- | --- | --- | ---
+One usable experimental summary | 89 | 79 | -0.167 | -0.305 to -0.029 | Trial-cluster normal interval
+Strict fields and one usable experimental summary | 76 | 67 | -0.197 | -0.398 to -0.016 | 1000-replicate trial bootstrap
+Strict fields, one usable summary and absolute g ≤3 | 74 | 65 | -0.084 | -0.200 to 0.032 | Trial-cluster normal interval
+
+These three definitions count only usable experimental summaries. The additional group-count condition in main Table 3 confirms that no other identified experimental group was omitted. Both definitions yield identical records and estimates in this dataset.
+
+Supplementary Table S6. Source comparison in all 12 sampled trials
+
+Trial / family | Source finding | Status for the selected record | Sensitivity action
+--- | --- | --- | ---
+NCT00711880 / PAIN | Linked 2007 trial abstract reports adjusted means; raw values not recovered. A retrieved 2009 poster was a different trial. | Final numerical summary unresolved | Retain
+NCT00962104 / HAMD | PMDA PDF p25 matches means and SDs; endpoint-specific denominators not separately recovered. | Partial numerical corroboration | Retain
+NCT02913521 / WOMACP | Synopsis links DICL001/P130021 and describes week-8 change; final values and sign convention not established. | Final numerical summary unresolved | Retain
+NCT00485472 / WOMACP | SP905 final synopsis reports LS means different from registry values; no raw mean/SD table. | Final numerical summary unresolved | Retain
+NCT00401830 / PAIN | No independent final numerical table recovered. | Final numerical source unavailable | Retain
+NCT00109772 / PAIN | Linked lenalidomide report identified, but selected numerical table not recovered. | Final numerical source unavailable | Retain
+NCT02384460 / PAIN | Article Table 2 matches means and n; rounded SEMs compatible with registry SDs. | Partial numerical corroboration | Retain
+NCT04469270 / PAIN | SAP specifies ITT analysis; selected final population and values not corroborated. | Final numerical summary unresolved | Retain
+NCT05624528 / MADRS | Protocol specifies week-8 MADRS and a mixed model; no final numerical table. | Final numerical summary unresolved | Retain
+NCT00597896 / HAMD | Article and registry differ in mean change and population information. | Numerical/population discrepancy unresolved | Retain
+NCT01145755 / MADRS | Final CSR identifies LS means matching rounded registry values. | Confirmed adjusted mean, incompatible with arithmetic standardization | Exclude this outcome record only
+NCT00154063 / PAIN | No independent final numerical table recovered. | Final numerical source unavailable | Retain
+
+The denominator remains 12 sampled trials. Corroboration is field-specific and does not certify complete record validity. Unavailable or unresolved cases were not replaced, recoded or treated as correct. Complete source URLs, exact selected registry values, document locators and remaining uncertainty are in source_adjudication_12.csv. The two earlier |g|>3 cases were selected separately and are not included in this denominator.
+
+Supplementary Table S7. Sensitivity after excluding one confirmed adjusted-mean record
+
+Analysis | Records | Trials | Slope per decade | 95% trial-cluster interval | 95% trial-bootstrap interval
+--- | --- | --- | --- | --- | ---
+Subjective pharmacological contrasts, broader eligible set | 120 | 105 | -0.179 | -0.302 to -0.056 | -0.300 to -0.054
+Strict fields and one experimental group | 75 | 66 | -0.203 | -0.381 to -0.024 | -0.396 to -0.016
+Strict fields, one experimental group and absolute g ≤3 | 73 | 64 | -0.088 | -0.204 to 0.028 | -0.207 to 0.040
+Subjective within-placebo change, strict fields | 231 | 202 | 0.144 | -0.089 to 0.377 | -0.083 to 0.429
+
+All four rows exclude NCT01145755/MADRS/outcome index 0 only; no numeric summary was replaced. The first three slopes are signed Hedges g per decade, with positive g favoring the experimental group; the fourth is standardized within-placebo change per decade. Models otherwise match the earlier analyses. Trial bootstrap intervals use 1,000 replicates. Unresolved source comparisons remain included. These are post hoc sensitivity estimates, with pointwise intervals and no corpus-wide error-rate inference.
+

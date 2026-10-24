@@ -1,0 +1,27 @@
+{
+  "frozen_at_utc": "2026-10-24T15:20:04.504333+00:00",
+  "sample_trials": 12,
+  "original_frame_trials": 65,
+  "original_frame_records": 74,
+  "status_counts": {
+    "NUMERICAL_SUMMARY_UNRESOLVED": 5,
+    "NUMERIC_FIELDS_CORROBORATED_PARTIAL": 2,
+    "FINAL_NUMERICAL_SOURCE_UNAVAILABLE": 3,
+    "NUMERICAL_POPULATION_DISCORDANCE_UNRESOLVED": 1,
+    "CONFIRMED_ADJUSTED_MEAN_INELIGIBLE": 1
+  },
+  "confirmed_excluded_keys": [
+    {
+      "nct": "NCT01145755",
+      "family": "MADRS",
+      "outcome_index": 0
+    }
+  ],
+  "post_hoc": true,
+  "full_denominator_retained": true,
+  "original_sample_sha256": "5fa6b5d0fc7ce65b078671ffc738d17fc9c2d5a48cfe1d0cc54005684b4f8c60",
+  "adjudication_sha256": "7704aa5d1cee6229bed1ebce82f3d8ef25a98a4cee392b9d72b20060068c644e",
+  "release_transform": "Removed bulk narrative fields, reviewer placeholders and local document filenames; all trial identifiers, selected numeric summaries, sampling rows, scientific statuses and exclusions preserved.",
+  "source_original_sample_sha256": "09671f269c0af441a327d8a68bbe9ab61926877dc0c82527cd66ea86e638aee6",
+  "source_original_adjudication_sha256": "227fe3d3ee3b8870b7af64bda9182963c275ac2dfb8dfb16695c33940afc6e9f"
+}

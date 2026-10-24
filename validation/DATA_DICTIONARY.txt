@@ -1,0 +1,24 @@
+Source-comparison release data dictionary
+
+Files and record identity
+source_adjudication_12.csv contains all 12 sampled trial-family records in their frozen sampling order. Identify a selected record by nct, family and outcome_index; class_index identifies its selected time/class. The public sampling and comparison files preserve the selected records, shared numerical values and scientific classifications while omitting narrative, reviewer and local-document fields. Their public-file hashes and the separate original-file hashes are recorded in source_adjudication_manifest.json. No unavailable record was replaced.
+
+Current comparison fields
+source_comparison_status is the completed source-comparison category. It takes one of five values:
+CONFIRMED_ADJUSTED_MEAN_INELIGIBLE: matching final results identify adjusted means incompatible with arithmetic change-score standardization; one record.
+NUMERIC_FIELDS_CORROBORATED_PARTIAL: selected numerical fields are independently supported, but complete record validity is not established; two records.
+NUMERICAL_POPULATION_DISCORDANCE_UNRESOLVED: numerical and analysis-population differences prevent a definitive reconciliation; one record.
+NUMERICAL_SUMMARY_UNRESOLVED: contextual documents were recovered but do not resolve the selected final numerical summary; five records.
+FINAL_NUMERICAL_SOURCE_UNAVAILABLE: an independent final numerical source was not recovered; three records.
+
+confirmed_ineligible_for_arithmetic_sensitivity is a boolean action field. Only NCT01145755, MADRS, outcome_index 0 is true. The added sensitivity excludes that record; it does not replace a mean, SD, sample size or effect direction. All unresolved records remain included under the stated eligibility rules.
+source_url and source_locator identify the recovered evidence. source_evidence summarizes the document findings; remaining_uncertainty states what they do not resolve. The private-only local_evidence_files, evidence_sha256 and reviewer columns are absent from this public file. Source PDFs and clinical-study reports are not redistributed.
+
+Preserved pre-comparison placeholders
+source_status, independent_source_url, source_page, mean_check, dispersion_check, n_check, arm_check, timepoint_check, population_check and overall_status originated in the frozen sampling worksheet. NOT_YET_CHECKED, PENDING and empty values in those retained columns describe the worksheet before source comparison. Use source_comparison_status, source_evidence, remaining_uncertainty and confirmed_ineligible_for_arithmetic_sensitivity for the completed comparison. The private reviewer field was omitted from the public derivative.
+
+Registry and calculated fields
+All preceding registry and analysis columns retain the selected snapshot values and definitions. y is the signed Hedges g contrast, positive toward benefit in the experimental group; v is its working sampling variance. mean_active, mean_placebo, sd_active, sd_placebo, n_active and n_placebo are the selected arithmetic-format inputs, not source-validated replacements. improvement_sign gives the orientation. A numerical value retained in this file is not certified as correct merely because it was not excluded.
+
+Interpretation
+Partial corroboration is field-specific. Protocols and statistical analysis plans can establish planned methods without establishing the summary type actually reported. The 12-trial source comparison is a post hoc sample from the strict eligible subset, not an estimate of the full registry's error prevalence.

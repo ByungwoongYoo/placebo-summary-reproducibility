@@ -1,0 +1,208 @@
+{
+  "analysis_generated_at_utc": "2026-10-24T15:20:54.954705+00:00",
+  "post_hoc": true,
+  "adjudication_frozen_before_reestimation": "2026-10-24T15:20:04.504333+00:00",
+  "adjudication_sha256": "227fe3d3ee3b8870b7af64bda9182963c275ac2dfb8dfb16695c33940afc6e9f",
+  "original_inputs_sha256": {
+    "extended_results.json": "88301439b5eda3f6a20b63628696274928d8aad9617fb0e39e64d5143a80dd86",
+    "raw_paired_contrasts_enriched.csv": "37290711c56275beaf5801c0a560ee3be3c044cb2c5b5e8ce254fb1e56131e91",
+    "record_provenance.csv": "df84c7b3594698e7db2ac019eeeb3e430b40b7ab4a4d1ea5abe53c7c503fcfb9"
+  },
+  "excluded_keys": [
+    {
+      "nct": "NCT01145755",
+      "family": "MADRS",
+      "outcome_index": 0
+    }
+  ],
+  "source_sample_denominator_trials": 12,
+  "source_sample_not_a_corpus_error_rate": true,
+  "numeric_replacement_performed": false,
+  "bootstrap_seed": 2026102401,
+  "results": {
+    "subjective_pharmacological_all": {
+      "original_reproduced": {
+        "n_records": 121,
+        "n_trials": 106,
+        "n_families": 10,
+        "year_min": 2001,
+        "year_max": 2023,
+        "beta_per_decade": -0.1724835882822466,
+        "cluster_se": 0.06265727442626347,
+        "ci95_cluster": [
+          -0.29529184615772297,
+          -0.04967533040677022
+        ],
+        "tau2": 0.1595664051262578,
+        "status": "estimated"
+      },
+      "source_informed": {
+        "n_records": 120,
+        "n_trials": 105,
+        "n_families": 10,
+        "year_min": 2001,
+        "year_max": 2023,
+        "beta_per_decade": -0.17896337414997546,
+        "cluster_se": 0.06261945305675021,
+        "ci95_cluster": [
+          -0.30169750214120583,
+          -0.056229246158745055
+        ],
+        "tau2": 0.15903493205170943,
+        "status": "estimated",
+        "ci95_bootstrap": [
+          -0.3000947268039595,
+          -0.053564045788979935
+        ],
+        "bootstrap_B": 1000
+      },
+      "excluded_records": [
+        {
+          "nct": "NCT01145755",
+          "family": "MADRS",
+          "outcome_index": 0,
+          "y": -0.4598559865987353,
+          "v": 0.0510293003235486
+        }
+      ]
+    },
+    "strict_single_experimental_group": {
+      "original_reproduced": {
+        "n_records": 76,
+        "n_trials": 67,
+        "n_families": 9,
+        "year_min": 2001,
+        "year_max": 2023,
+        "beta_per_decade": -0.19664894232871322,
+        "cluster_se": 0.09083257378397581,
+        "ci95_cluster": [
+          -0.3746807869453058,
+          -0.01861709771212061
+        ],
+        "tau2": 0.27764580469518785,
+        "status": "estimated"
+      },
+      "source_informed": {
+        "n_records": 75,
+        "n_trials": 66,
+        "n_families": 9,
+        "year_min": 2001,
+        "year_max": 2023,
+        "beta_per_decade": -0.2028217679984044,
+        "cluster_se": 0.09112613386622509,
+        "ci95_cluster": [
+          -0.3814289903762056,
+          -0.02421454562060324
+        ],
+        "tau2": 0.2771884678878232,
+        "status": "estimated",
+        "ci95_bootstrap": [
+          -0.3957541246325226,
+          -0.016436982051592258
+        ],
+        "bootstrap_B": 1000
+      },
+      "excluded_records": [
+        {
+          "nct": "NCT01145755",
+          "family": "MADRS",
+          "outcome_index": 0,
+          "y": -0.4598559865987353,
+          "v": 0.0510293003235486
+        }
+      ]
+    },
+    "strict_single_experimental_group_abs_g_at_most_3": {
+      "original_reproduced": {
+        "n_records": 74,
+        "n_trials": 65,
+        "n_families": 9,
+        "year_min": 2001,
+        "year_max": 2023,
+        "beta_per_decade": -0.08359611940393526,
+        "cluster_se": 0.05922410215411002,
+        "ci95_cluster": [
+          -0.1996753596259909,
+          0.03248312081812038
+        ],
+        "tau2": 0.05744127890216767,
+        "status": "estimated"
+      },
+      "source_informed": {
+        "n_records": 73,
+        "n_trials": 64,
+        "n_families": 9,
+        "year_min": 2001,
+        "year_max": 2023,
+        "beta_per_decade": -0.08771514258706953,
+        "cluster_se": 0.05918615928573214,
+        "ci95_cluster": [
+          -0.20372001478710453,
+          0.02828972961296547
+        ],
+        "tau2": 0.055263815707631406,
+        "status": "estimated",
+        "ci95_bootstrap": [
+          -0.20721238982869192,
+          0.040139392621217476
+        ],
+        "bootstrap_B": 1000
+      },
+      "excluded_records": [
+        {
+          "nct": "NCT01145755",
+          "family": "MADRS",
+          "outcome_index": 0,
+          "y": -0.4598559865987353,
+          "v": 0.0510293003235486
+        }
+      ]
+    },
+    "subjective_placebo_strict_fields": {
+      "original_reproduced": {
+        "n_records": 232,
+        "n_trials": 203,
+        "n_families": 10,
+        "year_min": 2000,
+        "year_max": 2023,
+        "beta_per_decade": 0.13041840817740263,
+        "cluster_se": 0.1200432593726946,
+        "ci95_cluster": [
+          -0.10486638019307878,
+          0.3657031965478841
+        ],
+        "tau2": 0.42600045421566574,
+        "status": "estimated"
+      },
+      "source_informed": {
+        "n_records": 231,
+        "n_trials": 202,
+        "n_families": 10,
+        "year_min": 2000,
+        "year_max": 2023,
+        "beta_per_decade": 0.14409732652369614,
+        "cluster_se": 0.1189834804388385,
+        "ci95_cluster": [
+          -0.08911029513642732,
+          0.3773049481838196
+        ],
+        "tau2": 0.421381868597705,
+        "status": "estimated",
+        "ci95_bootstrap": [
+          -0.08307949401767262,
+          0.42888044737406655
+        ],
+        "bootstrap_B": 1000
+      },
+      "excluded_records": [
+        {
+          "nct": "NCT01145755",
+          "family": "MADRS",
+          "outcome_index": 0,
+          "raw_y": 6.554398148148148,
+          "raw_v": 0.5620016885555984
+        }
+      ]
+    }
+  }
+}
